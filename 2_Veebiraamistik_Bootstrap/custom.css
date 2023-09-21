@@ -1,0 +1,96 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 1.8em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+
+/* Jumbotron Custom Styles */
+.custom-jumbotron {
+    background-color: #f8f9fa;
+    padding: 5rem 0;
+}
+.custom-jumbotron h1 {
+    font-size: 3rem;
+}
+.custom-jumbotron p {
+    font-size: 1.2rem;
+}
+
+/* Üldine jaluse kujundus */
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact-info, .social-info {
+    text-align: left;
+}
+
+.contact-info {
+    margin-left: 20px;
+}
+
+.social-wrapper {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.text-left {
+    display: inline-block;
+    text-align: left;
+}
+
+.social-info h5, .social-info p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.lnr {
+    margin-right: 10px;
+}
