@@ -82,7 +82,7 @@ nav ul li a {
     margin: 2px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     nav ul {
         display: none;
         flex-direction: column;
@@ -117,7 +117,7 @@ nav ul li a {
 }
 
 /* Button styles */
-.votke, #teenused, #pilte {
+.votke, #teenused, #pilte, #kontakt {
     background-color: #8E43F0;
     color: white;
     border-radius: 10px;
@@ -128,7 +128,7 @@ nav ul li a {
     transition: 0.3s;
 }
 
-.votke:hover, #teenused:hover, #pilte:hover {
+.votke:hover, #teenused:hover, #pilte:hover, #kontakt:hover {
     background-color: #a154f3;
     transform: scale(1.05);
 }
@@ -149,6 +149,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    z-index: 1;
 }
 
 .box1, .box2 {
@@ -177,17 +178,18 @@ nav ul li a {
     align-items: center;
     padding: 50px 0;
     gap: 30px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .sissejuh-text {
     flex: 1;
     padding: 40px;
-    background-color: #ffffff;
     border-radius: 10px;
 }
 
 .sissejuh-text h3 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: 30px;
     color: #333;
     font-weight: 600;
